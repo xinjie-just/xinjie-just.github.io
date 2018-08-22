@@ -15,6 +15,9 @@
 - 图标
 1. 现代网页对于简单的图形，都不需要再使用图片了，可以减少http请求，同时更改颜色和大小也极为方便。例如微博和微信图标，我们可以通过阿里巴巴矢量图标库来加载 http://iconfont.cn/
 使用指南 http://iconfont.cn/help/index?spm=a313x.7781069.1998910419.12
-2. one-div上 http://www.one-div.com/ (该网站在编辑这篇文章时，暂时打不开了) 使用一个 div 并充分利用伪元素，制作出了很多小图标，例如视频、杯子等。
-
+1. one-div上 http://www.one-div.com/ (该网站在编辑这篇文章时，暂时打不开了) 使用一个 div 并充分利用伪元素，制作出了很多小图标，例如视频、杯子等。
+- 样式
+1. LeSS （Leaner Style Sheets 的缩写） 是一门向后兼容的 CSS 扩展语言。Less 入门及语法 http://www.bootcss.com/p/lesscss/ LESS 将 CSS 赋予了动态语言的特性，如 变量， 继承， 运算， 函数. LESS 既可以在 客户端 上运行 (支持IE 6+, Webkit, Firefox)，也可以借助Node.js或者Rhino在服务端运行。
+2. SCSS 成熟、稳定、强大的 CSS 扩展语言解析器。SCSS中文网 https://www.sass.hk/
+3. CSS CSS的书籍市面上并不多，如果你是一个CSS初学者，可以购买《CSS权威指南》,如果你想进阶，可以学习《CSS揭秘》和《CSS世界》,CSS揭秘是进阶技巧，CSS世界是进阶基础,看这两本书能让你的CSS写得更少，做得更多。
 
