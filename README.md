@@ -15,7 +15,14 @@
 - 图标
 1. 现代网页对于简单的图形，都不需要再使用图片了，可以减少http请求，同时更改颜色和大小也极为方便。例如微博和微信图标，我们可以通过阿里巴巴矢量图标库来加载 http://iconfont.cn/
 使用指南 http://iconfont.cn/help/index?spm=a313x.7781069.1998910419.12
-1. one-div上 http://www.one-div.com/ (该网站在编辑这篇文章时，暂时打不开了) 使用一个 div 并充分利用伪元素，制作出了很多小图标，例如视频、杯子等。
+2. Font Awesome 图标  
+Font Awesome 是一套绝佳的图标字体库和CSS框架。Font Awesome 字体为您提供可缩放矢量图标,它可以被定制大小、颜色、阴影以及任何可以用CSS的样式。 Font Awesome 中文网 http://www.fontawesome.com.cn/
+3. Glyphicons 字体图标  
+Glyphicons Halflings 一般是收费的，但是他们的作者允许 Bootstrap 免费使用。是 Bootstrap 的默认字体图标。通过 Bootstrap 来使用是免费的，其他途径是收费的。
+4. one-div上 http://www.one-div.com/ (该网站在编辑这篇文章时，暂时打不开了) 使用一个 div 并充分利用伪元素，制作出了很多小图标，例如视频、杯子等。
+- 工具
+1. Can I Use 一款前端兼容性自查工具  
+ 前端开发时常需要检查浏览器的兼容性，在这里推荐 [Can I Use](https://caniuse.com/) 这个是一个针对前端开发人员定制的一个查询CSS、Js在个中流行浏览器钟的特性和兼容性的网站，可以很好的保证网页的浏览器兼容性。有了这个工具可以快速的了解到代码在各个浏览器钟的效果。
 - 样式
 1. LeSS （Leaner Style Sheets 的缩写） 是一门向后兼容的 CSS 扩展语言。Less 入门及语法 http://www.bootcss.com/p/lesscss/ LESS 将 CSS 赋予了动态语言的特性，如 变量， 继承， 运算， 函数. LESS 既可以在 客户端 上运行 (支持IE 6+, Webkit, Firefox)，也可以借助Node.js或者Rhino在服务端运行。
 2. SCSS 成熟、稳定、强大的 CSS 扩展语言解析器。SCSS中文网 https://www.sass.hk/
