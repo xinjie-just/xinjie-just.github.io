@@ -22,6 +22,36 @@ Glyphicons Halflings 一般是收费的，但是他们的作者允许 Bootstrap 
 - 工具
 1. Can I Use 一款前端兼容性自查工具  
  前端开发时常需要检查浏览器的兼容性，在这里推荐 [Can I Use](https://caniuse.com/) 这个是一个针对前端开发人员定制的一个查询CSS、Js在个中流行浏览器钟的特性和兼容性的网站，可以很好的保证网页的浏览器兼容性。有了这个工具可以快速的了解到代码在各个浏览器钟的效果。
+- IDE/编辑器
+1. WebStorm 最智能的JavaScript IDE  
+[官网下载地址](http://www.jetbrains.com/webstorm/download)，网速慢的可以通过[百度网盘下载 WebStorm 2018.2.2](https://pan.baidu.com/s/1GH4Id-RpRx5sMjjgMnIt_g)  
+曾经因为 WebStrom 一项很友好的提示而喜欢上它，那时候在做一个 Angular 项目，用的 WebStorm。
+初始代码：
+```
+  selectRemind(chars, isLeastOne):boolean {
+    if (chars.length === 0) {
+      isLeastOne = false;
+    } else {
+      isLeastOne = true;
+    }
+    return isLeastOne;
+  }
+  this.isTypeLeastOne = this.selectRemind(this.projectType, this.isTypeLeastOne);
+```
+在 if 那里有黄底提示代码可以精简，并且给出示例，改进后代码：
+```
+  selectRemind(chars):boolean {
+    return (chars.length === 0) ? false : true;
+  }
+  this.isTypeLeastOne = this.selectRemind(this.projectType);
+```
+少传一个参数，并且函数体代码 6 行变 1 行，还是有黄底提示，进一步精简如下：
+```
+  selectRemind(chars):boolean {
+    return (chars.length !== 0);
+  }
+  this.isTypeLeastOne = this.selectRemind(this.projectType);
+```
 - 样式
 1. LeSS （Leaner Style Sheets 的缩写） 是一门向后兼容的 CSS 扩展语言。[Less 入门及语法](http://www.bootcss.com/p/lesscss/) LESS 将 CSS 赋予了动态语言的特性，如 变量， 继承， 运算， 函数. LESS 既可以在 客户端 上运行 (支持IE 6+, Webkit, Firefox)，也可以借助Node.js或者Rhino在服务端运行。
 2. SCSS 成熟、稳定、强大的 CSS 扩展语言解析器。[SCSS中文网](https://www.sass.hk/)
