@@ -27,6 +27,64 @@ ___
  前端开发时常需要检查浏览器的兼容性，在这里推荐 [Can I Use](https://caniuse.com/) 这个是一个针对前端开发人员定制的一个查询CSS、JS在个中流行浏览器钟的特性和兼容性的网站，可以很好的保证网页的浏览器兼容性。有了这个工具可以快速的了解到代码在各个浏览器钟的效果。
 2. [LeetCode](https://leetcode-cn.com/)  
 算法研究，刷题的绝佳地方，面试前准备准备，对笔试部分有帮助。
+3. [TypeScript Playground](http://www.typescriptlang.org/play/index.html)  
+TypeScript 转换为 JavaScript(ES5)  
+例如：
+```
+TypeScript:
+let Arr = [1, 3, 6, 9, 10];
+console.log(Arr.filter(value => value % 3 === 0));
+```
+```
+JavaScript:
+var Arr = [1, 3, 6, 9, 10];
+console.log(Arr.filter(function (value) { return value % 3 === 0; }));
+```
+4. [Babel](https://babeljs.io/)  
+ES6 转换为 ES5
+例如：
+```
+ES6：
+const arr = ['red', 'green', 'blue'];
+for(let v of arr) {
+  console.log(v);
+}
+```
+```
+ES5:
+'use strict';
+
+var arr = ['red', 'green', 'blue'];
+var _iteratorNormalCompletion = true;
+var _didIteratorError = false;
+var _iteratorError = undefined;
+
+try {
+  for (var _iterator = arr[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+    var v = _step.value;
+
+    console.log(v);
+  }
+} catch (err) {
+  _didIteratorError = true;
+  _iteratorError = err;
+} finally {
+  try {
+    if (!_iteratorNormalCompletion && _iterator.return) {
+      _iterator.return();
+    }
+  } finally {
+    if (_didIteratorError) {
+      throw _iteratorError;
+    }
+  }
+}
+```
+5. [JSON在线解析](https://c.runoob.com/front-end/53)
+将 JSON 转换为更易阅读的树形结构。
+- 学习指南
+1. [MDN Web docs](https://developer.mozilla.org/zh-CN/)  
+学习 Web 开发的最佳实践。包括 HTML, CSS, JavaScript, 图像, HTTP, DOM 的标准
 ___
 - IDE/编辑器
 1. WebStorm 最智能的JavaScript IDE  
