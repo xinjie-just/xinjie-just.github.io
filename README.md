@@ -140,10 +140,12 @@ ___
 《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。由JS专家，前端“布道者”阮一峰老师编写。
 ___
 - 框架(库)
-1. [前端数据可视化](http://echarts.baidu.com/)  
+1. [Angular](https://angular.cn/)  
+学会用Angular构建应用，然后把这些代码和能力复用在多种不同平台的应用上 —— Web、移动 Web、移动应用、原生应用和桌面原生应用。目前在 github 前端框架中排名第三， star 4w+。比较适合用于构建后台管理系统。
+2. [Vue](https://cn.vuejs.org/)  
+一款渐进式 JavaScript 框架。可以引入 Vue 库，构建小型的页面，也可以当做一个完整的框架构建大型单页应用。目前在 github 前端框架中排名第一， star 11w+。
+3. [前端数据可视化](http://echarts.baidu.com/)  
 ECharts，一个使用 JavaScript 实现的开源可视化库，底层依赖轻量级的矢量图形库 ZRender，提供直观，交互丰富，可高度个性化定制的数据可视化图表。  
 ECharts 提供了常规的折线图、柱状图、散点图、饼图、K线图，用于统计的盒形图，用于地理数据可视化的地图、热力图、线图，用于关系数据可视化的关系图、treemap、旭日图，多维数据可视化的平行坐标，还有用于 BI 的漏斗图，仪表盘，并且支持图与图之间的混搭。
-2. [Angular](https://angular.cn/)  
-学会用Angular构建应用，然后把这些代码和能力复用在多种不同平台的应用上 —— Web、移动 Web、移动应用、原生应用和桌面原生应用。目前在 github 前端框架中排名第三， star 4w+。比较适合用于构建后台管理系统。
-3. [Vue](https://cn.vuejs.org/)  
-一款渐进式 JavaScript 框架。可以引入 Vue 库，构建小型的页面，也可以当做一个完整的框架构建大型单页应用。
+4. [nodejs](http://nodejs.cn/api/)  
+Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。 运行在服务端的 JavaScript。  
