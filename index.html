@@ -412,6 +412,19 @@
       整理有用的前端技术及文档，工作中的一些经验，供以后查阅。欢迎 developer
       补充
     </p>
+    <h3>科学上网</h3>
+    <ul>
+      <li>VPN</li>
+      <li>
+        Shadowsocks
+        <a href="https://github.com/shadowsocks/ShadowsocksX-NG/releases"
+          >VPN</a
+        >
+        Server Ip:47.75.48.111，Server
+        Port:10001，password:MDBiNmQwZm，Encryption:aes-256-cfb，Proxy
+        Port:1080(自行设置本地端口
+      </li>
+    </ul>
     <h3>前端工具</h3>
     <ul>
       <li>Git</li>
@@ -490,6 +503,11 @@
     <ul>
       <li>工具</li>
       <li>
+        <a href="https://www.getpostman.com/">Postman</a><br />
+        API测试工具，API开发协作平台，调用接口前，先测试接口，确保接口可用和正确的使用，比如：使用的那种调用方式，参数是使用
+        params 还是放在 header 里，还是放在 body 里。
+      </li>
+      <li>
         Can I Use 一款前端兼容性自查工具<br />
         前端开发时常需要检查浏览器的兼容性，在这里推荐
         <a href="https://caniuse.com/">Can I Use</a>
@@ -523,10 +541,6 @@
           console.log(v); }</code
         >
         ``` ES5: 'use strict';
-      </li>
-      <li>
-        <a href="https://www.getpostman.com/">Postman</a><br />
-        API测试工具，API开发协作平台，调用接口前，先测试接口，确保接口可用和正确的使用，比如：使用的那种调用方式，参数是使用 params 还是放在 header 里，还是放在 body 里。
       </li>
     </ul>
     <p>
@@ -565,27 +579,26 @@
         >，网速慢的可以通过
         <a href="https://pan.baidu.com/s/1GH4Id-RpRx5sMjjgMnIt_g"
           >百度网盘下载 WebStorm 2018.2.2</a
-        ><br />
-        曾经因为 WebStrom 一项很友好的提示而喜欢上它，那时候在做一个 Angular
-        项目，用的 WebStorm。 初始代码：
-        <code
-          >selectRemind(chars, isLeastOne):boolean { if (chars.length === 0) {
-          isLeastOne = false; } else { isLeastOne = true; } return isLeastOne; }
-          this.isTypeLeastOne = this.selectRemind(this.projectType,
-          this.isTypeLeastOne);</code
         >
-        在 if 那里有黄底提示代码可以精简，并且给出示例，改进后代码：
-        <code
-          >selectRemind(chars):boolean { return (chars.length === 0) ? false :
-          true; } this.isTypeLeastOne =
-          this.selectRemind(this.projectType);</code
-        >
-        少传一个参数，并且函数体代码 6 行变 1
-        行，还是有黄底提示，进一步精简如下：
-        <code
-          >selectRemind(chars):boolean { return (chars.length !== 0); }
-          this.isTypeLeastOne = this.selectRemind(this.projectType);</code
-        >
+      </li>
+      <li>
+        VSCode 前端 JS 编辑器<br />
+        <a href="https://code.visualstudio.com/">VSCode</a>
+        <p>
+          | 名称 | 描述 | | -------------------------- |
+          ------------------------------------------------------------------------------------------------------------------
+          | | Chinese | 中文简体语言包 | | Code Runner |
+          能够运行多种语言的代码片段或代码文件 | | Document This | 添加代码注释
+          | | GitLens — Git supercharged | 显示文件最近的 commit
+          和作者，显示当前行 commit 信息 | | Prettier |
+          代码格式化程序，使用方法参考<a
+            href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+            >官方说明</a
+          >
+          | | Live Server |
+          创建静态服务，能实时监听当前服务下文件的改动，并触发浏览器刷新 | |
+          Markdown Preview Enhanced | Markdown 文件预览
+        </p>
       </li>
     </ul>
     <hr />
